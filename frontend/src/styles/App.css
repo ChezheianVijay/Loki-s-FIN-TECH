@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+    --text-min: 12px;
+    --text-sm: 14px;
+    --text-md: 16px;
+    --text-xl: 18px;
+    --text-xxl: 20px;
+    --text-xxl: 24px;
+    --text-max: 32px;
+
+    --radius-sm: 8px;
+    --radius-md: 10px;
+    --radius-xl: 12px;
+    --radius-max: 32px;
+
+    --ubuntu: "Ubuntu", sans-serif;
+    --poppins: "Poppins", sans-serif;
+
+    --Soft-Amber-to-Yellow: linear-gradient(150deg, oklch(98.7% .022 95.277) 0%, oklch(97.3% .071 103.193) 100%);
+    --Ultra-Light-Orange-to-Amber: linear-gradient(150deg, oklch(98% .016 73.684) 0%, oklch(98.7% .022 95.277) 100%);
+    --Yellow-with-Color-Mix: linear-gradient(150deg, oklch(97.3% .071 103.193) 0%, color-mix(in srgb, oklch(90.1% .076 70.697) 40%, #fff) 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100dvh;
+    background-color: white;
+    font-family: var(--poppins);
+}
+
+.main-block {
+    display: flex;
+}
